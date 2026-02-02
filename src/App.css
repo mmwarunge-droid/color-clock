@@ -10,13 +10,14 @@ background: linear-gradient(135deg, #000000, #1a1a1a, #3b3b3b);
   padding: 2.5rem;
   border-radius: 20px;
   background-color: rgba(110, 110, 160, 0.4);
-  backdrop-filter: blur(10px) ;
+  -webkit-backdrop-filter: blur(10px) ;
+  backdrop-filter: blur(10px);
   box-shadow: 0 10px 30px rgba(251, 255, 0, 0.4);
-  transition: transform 0.3 ease, box-shadow 0.3 ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .clock-card:hover {
 transform: translateY(-6px) scale(1.06);
-box-shadow: 0 10px 30px rgb(11, 26, 11, 0.8)
+box-shadow: 0 10px 30px rgba(11, 26, 11, 0.8);
 }
 .clock-time {
   font-family: Verdana, Tahoma, sans-serif;

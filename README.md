@@ -1,16 +1,35 @@
-# React + Vite
+# Color Clock (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time dynamic color clock built with React and Vite.  
+The background color changes based on the current hours, minutes, and seconds, while displaying the time in the format:
 
-Currently, two official plugins are available:
+Simple, minimal, and visually expressive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Real-time clock updating every second
+- Dynamic RGB background:
+- Built using React
+- Fast development with Vite
+- Clean and minimal codebase
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+React
+Vite
+date-fns
+CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/your-username/color-clock.git
+cd color-clock```
+npm install // to install dependencies
+npm run dev // to see if the React app renders correctly in your browser
+improve the code as you wish and share insights!
+
+##
+
+Author : Mark Warunge

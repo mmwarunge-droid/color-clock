@@ -13,14 +13,14 @@ justify-content: center;
 height: 100vh;
 width: 100vw;
 align-items: center;
-background: linear-gradient(135deg, #000000, #1a1a1a, #3b3b3b);
+background: linear-gradient(135deg, #000000, #1a1a1a, #a0b0d9);
 }
 .clock-card{
   padding: 2.5rem;
   border-radius: 20px;
-  background-color: rgba(110, 110, 160, 0.4);
+  background-color: rgba(110, 160, 151, 0.4);
   backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px rgba(251, 255, 0, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 76, 255, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .clock-card:hover {
@@ -29,7 +29,7 @@ transform: translateY(-6px) scale(1.06);
 .clock-time {
   font-size: 2rem;
   font-weight: 600;
-  color: #f5d76e;
+  color: #f0efec;
   text-align: center;
 }
 
